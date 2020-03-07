@@ -7,8 +7,49 @@ header, nav, aside, article, footer, section, main, figure, figcaption {
 	padding:0;
 }
 
+header {
+    text-align: center;
+    padding: 0 6% 8% 6%;
+    margin: 0 0 8% 0;
+    background-color: black;
+}
+
+nav ul {
+    padding: 6% 0;
+}
+
 nav ul li {
     display: inline;
-    text-decoration: none;
+    font-family: 'Arimo', sans-serif;
     font-size: 1em;
+    padding: 0 4%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header h1 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    padding: 2% 0 4% 0;
+}
+
+header p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 1em;
+    color: white;
+    padding: 0 0 10% 0;
+}
+
+header button {
+    margin: 0 0 4% 0;
+    font-family: 'Arimo', sans-serif;
+    font-size: 1em;
+    color: white;
+    border: 1px solid white;
+    background-color: #005A9C;
+    padding: 2% 8%;
 }
