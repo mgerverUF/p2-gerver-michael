@@ -53,3 +53,10 @@ header button {
     background-color: #005A9C;
     padding: 2% 8%;
 }
+
+section article {
+    font-family: 'Arimo', sans-serif;
+    font-size: 1em;
+    color: white;
+    padding: 0 6%;
+}
