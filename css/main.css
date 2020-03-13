@@ -11,11 +11,12 @@ header {
     text-align: center;
     padding: 0 6% 8% 6%;
     margin: 0 0 8% 0;
-    background-color: black;
+    background-image: url('../images/hero-home.jpg');
+    background-size: contain;
 }
 
 nav ul {
-    padding: 6% 0;
+    padding: 8% 0 6% 0;
 }
 
 nav ul li {
@@ -67,6 +68,20 @@ section article {
     font-size: 1em;
     color: #6D6E71;
     padding: 0 6%;
+}
+
+.mobile-display {
+    display: flex;
+    padding: 4% 4%;
+}
+
+.mobile-display img {
+    width: 27%;
+    margin: auto;
+}
+
+.desktop-display {
+    display: none;
 }
 
 footer {
