@@ -70,24 +70,57 @@ section article {
     padding: 0 6%;
 }
 
+.hours-list {
+    font-family: 'Arimo', sans-serif;
+    font-size: 1em;
+    color: #6D6E71;
+    padding: 2% 0;
+}
+
+.hours-list p {
+    padding: 1% 0;
+}
+
+.hours-menu {
+    padding: 2% 0 0 0;
+}
+
+.hours-menu p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 1em;
+    color: #6D6E71;
+}
+
 .about-image img {
     width: 100%;
     padding: 5% 0 5% 0;
 } 
 
 .map img {
-    width: 80%;
+    display: block;
+    width: 88%;
     padding: 5% 0;
+    margin: 0 auto;
 }
 
-section article h2, .hours-menu h2 {
+section article h2 {
     font-family: 'Arimo', sans-serif;
     color: #005A9C;
     padding: 0 0 2% 0;
 }
 
+.hours-menu h2 {
+    font-family: 'Arimo', sans-serif;
+    color: #005A9C;
+    padding: 5% 0 0 0;
+}
+
 section article p {
     padding: 0 0 2% 0;
+}
+
+.hours-menu {
+    padding: 0 6%;
 }
 
 .read-more {
