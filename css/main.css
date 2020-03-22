@@ -81,9 +81,21 @@ section article h2 {
     padding: 0 0 2% 0;
 }
 
+section article p {
+    padding: 0 0 2% 0;
+}
+
 .read-more {
     font-weight: bolder;
     color: #005A9C; 
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
 }
 
 .mobile-display {
