@@ -70,6 +70,22 @@ section article {
     padding: 0 6%;
 }
 
+.about-image img {
+    width: 100%;
+    padding: 5% 0 5% 0;
+} 
+
+section article h2 {
+    font-family: 'Arimo', sans-serif;
+    color: #005A9C;
+    padding: 0 0 2% 0;
+}
+
+.read-more {
+    font-weight: bolder;
+    color: #005A9C; 
+}
+
 .mobile-display {
     display: flex;
     padding: 4% 4%;
