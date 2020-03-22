@@ -75,7 +75,12 @@ section article {
     padding: 5% 0 5% 0;
 } 
 
-section article h2 {
+.map img {
+    width: 80%;
+    padding: 5% 0;
+}
+
+section article h2, .hours-menu h2 {
     font-family: 'Arimo', sans-serif;
     color: #005A9C;
     padding: 0 0 2% 0;
