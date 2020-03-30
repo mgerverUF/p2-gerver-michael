@@ -79,3 +79,7 @@ function showText() {
           readMore.innerHTML = 'Read More';
         }
     };    
+
+
+// START CODE FOR HOMEPAGE POP-UP
+var popUp = document.getElementById('');    
