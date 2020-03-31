@@ -58,37 +58,3 @@ var accItem = document.getElementsByClassName('hours-menu');
             this.parentNode.className = 'hours-menu open';
         }
     }
-
-
-// START CODE FOR READ MORE/READ LESS FUNCTIONALITY
-// https://codepen.io/shimaamohamed923/pen/yLyaLKv
-var readMore = document.getElementById('expand-button');
-var moreText = document.getElementById('more-text');
-
-readMore.addEventListener('click', showText)  
-function showText() {
-        if(moreText.classList.contains('hide')) {
-          moreText.classList.remove('hide');
-          moreText.classList.add('show');
-          readMore.innerHTML = 'Read Less';
-        }
-
-        else if(moreText.classList.contains('show')) {
-          moreText.classList.remove('show');
-          moreText.classList.add('hide');
-          readMore.innerHTML = 'Read More';
-        }
-    };    
-
-
-
-// START CODE FOR HOMEPAGE POP-UP
-var popUp = document.getElementById('text-window'); 
-var overlay = document.getElementById('overlay');
-var closeButton = document.getElementById('close-pop-up');
-
-closeButton.addEventListener('click', hidePopUp)
-function hidePopUp() {
-    popUp.classList.add('hide');
-    overlay.classList.add('hide');
-};   
