@@ -256,9 +256,9 @@ section article p {
 
 footer {
     background-color: #005A9C;
-    position: fixed;
     bottom: 0;
     width: 100%;
+    margin: 8% 0 0 0;
 }
 
 footer h3 {
