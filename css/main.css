@@ -282,3 +282,67 @@ footer h3 a {
 .social-icons img {
     width: 45%;
 }
+
+@media (min-width: 450px) {
+    .social-icons {
+        width: 25%;
+        margin: auto;    
+        padding: 1% 0 2% 0;
+    }
+    
+    .social-icons img {
+        width: 30%;
+    }
+}
+
+@media (min-width: 610px) {
+    header {
+        text-align: center;
+        padding: 0 6% 6% 6%;
+        margin: 0 0 5% 0;
+    }
+    
+    nav ul {
+        padding: 8% 0 6% 0;
+    }
+    
+    nav ul li {
+        font-size: 1.2em;
+        padding: 0 4%;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    header h1 {
+        font-size: 1.8em;
+        padding: 2% 0 4% 0;
+    }
+    
+    header p {
+        font-size: 1.3em;
+        padding: 0 0 7% 0;
+    }
+
+    header button {
+        font-size: 1.2em;
+    }
+
+    #text-window button {
+        font-size: 1.1em;
+    }
+
+    section article h2 {
+        font-size: 1.7em; 
+    }
+
+    section article p {
+        font-size: 1.15em; 
+    }
+
+    .hours-list p {
+        font-size: 1.15em;
+    }
+}
