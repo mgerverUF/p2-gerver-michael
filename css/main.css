@@ -275,8 +275,8 @@ footer h3 a {
  
 .social-icons {
     width: 25%;
-    margin: auto;    
-    padding: 4% 0 4% 0;
+    margin: auto;
+    padding: 4% 0;
 }
 
 .social-icons img {
@@ -287,7 +287,7 @@ footer h3 a {
     .social-icons {
         width: 25%;
         margin: auto;    
-        padding: 1% 0 2% 0;
+        padding: 1% 0 2% 9%;
     }
     
     .social-icons img {
@@ -345,4 +345,39 @@ footer h3 a {
     .hours-list p {
         font-size: 1.15em;
     }
+
+    footer h3 a {
+        font-size: 1.4em;
+    }
+}
+
+@media (min-width: 800px) {
+    nav ul li {
+        font-size: 1.4em;
+    }
+
+    header h1 {
+        font-size: 2.2em;
+    }
+
+    header button {
+        font-size: 1.4em;
+    }
+
+    .hours-menu-heading {
+        font-size: 1.8em;
+    }
+
+    #text-window button {
+        font-size: 1.3em;
+    }
+
+    #text-window h2 {
+        font-size: 2em;
+    }
+
+    #text-window p {
+        font-size: 1.4em;
+    }
+
 }
