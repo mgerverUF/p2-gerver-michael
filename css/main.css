@@ -381,3 +381,37 @@ footer h3 a {
     }
 
 }
+
+@media (min-width: 950px) {
+    header p {
+        padding: 0 14% 5% 14%;
+    }
+
+    header h1 {
+        font-size: 2.6em;
+    }
+
+    header button {
+        padding: 1% 5%;
+    }
+
+    .mobile-display {
+        display: none;
+    }
+
+    section {
+        display: flex;
+    }
+
+    .about-image {
+        display: flex;
+        flex-grow: 12;
+        margin: 0 6% 0 0;
+    }
+
+    .desktop-display {
+        display: flex;
+        flex-grow: 6;
+        margin: 0 6% 0 0;
+    }
+}
