@@ -472,10 +472,4 @@ footer h3 a {
     .social-icons a {
         justify-content: end;
     }
-
-    .about-footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-    }
 }
