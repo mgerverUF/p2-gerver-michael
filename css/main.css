@@ -387,6 +387,10 @@ footer h3 a {
         background-size: cover;
     }
 
+    .active-nav {
+        border-bottom: 5px solid #EF3E42;
+    }
+
     .header-about {
         background-size: cover;
     }
@@ -418,9 +422,13 @@ footer h3 a {
 
     .about-image {
         display: flex;
-        flex-grow: 6;
         margin: 0 6% 0 0;
-        max-height: max-content;
+        padding: 0;
+        max-height: 215px;
+    }
+
+    .about-text {
+        padding-right: 20%;
     }
 
     .desktop-display {
@@ -436,5 +444,38 @@ footer h3 a {
 
     .info-group {
         padding-left: 6%;
+    }
+
+    .hours-menu h2 {
+        padding: 3% 0 3% 4%;
+    }
+
+    footer {
+        display: flex;
+        margin: 4% 0 0 0;
+    }
+
+    footer h3 {
+        padding: 3% 0 1% 5%;
+    }
+
+    footer h3 a {
+        font-size: 1.1em;
+    }
+
+    .social-icons {
+        width: 14%;
+        margin-right: 0;
+        padding: 2% 0 2% 9%;
+    }
+
+    .social-icons a {
+        justify-content: end;
+    }
+
+    .about-footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
     }
 }
